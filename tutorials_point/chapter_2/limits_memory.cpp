@@ -2,8 +2,7 @@
 #include <limits>
 using namespace std;
 
-int main()
-{
+int main() {
   cout << "Int Min => " << std::numeric_limits<int>::min() << endl;
   cout << "Int Max => " << std::numeric_limits<int>::max() << endl;
   cout << "Unsigned Int Min => " << std::numeric_limits<unsigned int>::min() << endl;

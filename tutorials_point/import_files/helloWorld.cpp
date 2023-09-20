@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void helloWorld()
-{
+void helloWorld() {
   cout << "Hello, world!" << endl;
+
+  return;
 }

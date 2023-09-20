@@ -1,7 +1,6 @@
 #include <iostream>
 
-int main()
-{
+int main() {
   int integer1 = 0;
   int integer2 = 0;
   int sum = 0;

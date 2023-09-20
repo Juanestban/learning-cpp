@@ -5,8 +5,7 @@ extern int a, b;
 extern int c;
 extern float f;
 
-int main()
-{
+int main() {
   // defining
   int a, b;
   int c;

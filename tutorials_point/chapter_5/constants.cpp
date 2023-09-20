@@ -5,8 +5,7 @@ using namespace std;
 #define WIDTH 5
 #define NEWLINE '\n'
 
-int main()
-{
+int main() {
   int area;
 
   area = LENGTH * WIDTH;

@@ -6,10 +6,8 @@ void func(void);
 
 static int _count = 10; /* Global variable */
 
-main()
-{
-  while (_count--)
-  {
+main() {
+  while (_count--) {
     func();
   }
 
@@ -17,9 +15,9 @@ main()
 }
 
 // Function definition
-void func(void)
-{
-  static int i = 5; // local static variable => esto mantiene el valor asignado y reasignado durante la ejecución del programa
+void func(void) {
+  static int i = 5;  // local static variable => esto mantiene el valor asignado y reasignado
+                     // durante la ejecución del programa
   i++;
   cout << "i is " << i;
   cout << " and _count is " << _count << endl;

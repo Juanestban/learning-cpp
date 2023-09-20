@@ -1,9 +1,8 @@
 // First code line program in C++
 #include <iostream>
 
-int main()
-{
+int main() {
   std::cout << "¡Welcome to C++!\n";
 
-  return 0; // the program finished correctly
+  return 0;  // the program finished correctly
 }

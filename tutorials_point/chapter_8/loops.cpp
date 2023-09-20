@@ -2,8 +2,7 @@
 using namespace std;
 
 // while() {...}, for() {...}, do {...} while(), nested loops
-int main()
-{
+int main() {
   /**
    * break    => statement
    * continue => statement
