@@ -62,3 +62,19 @@ task json file vscode example:
   ]
 }
 ```
+
+## build cpp files
+commands
+```sh
+g++ file.cpp
+```
+
+rename file compile => .exe
+```sh
+g++ -o file.exe file.cpp
+```
+
+or:
+```sh
+g++ file.cpp -o file.exe
+```
